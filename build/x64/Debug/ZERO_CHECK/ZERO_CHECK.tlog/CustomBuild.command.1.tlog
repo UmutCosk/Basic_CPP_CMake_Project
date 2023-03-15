@@ -1,0 +1,10 @@
+^C:\USERS\UMUT9\DESKTOP\PROJEKTE\CPP\BUILD\CMAKEFILES\77F769CF108B4EC6168CF1425A771082\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/umut9/Desktop/Projekte/Cpp -BC:/Users/umut9/Desktop/Projekte/Cpp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/umut9/Desktop/Projekte/Cpp/build/ZEISS_Project.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
