@@ -1,5 +1,5 @@
 #include "module.h"
 
 void PrintHelloWorld(){
-    std::cout << "Hello World! 2" << std::endl;
+    std::cout << "Hello World! 3" << std::endl;
 }
